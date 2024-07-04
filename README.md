@@ -34,7 +34,7 @@ Para estruturação da lógica do projeto foi utilizado Javascript ES6 para sele
 
 2.Após digitar sua mensagem clique em `Criptografar` e na caixa a direita irá mostrar sua mensagem Criptografar, clique em copiar para adicionar a mensagem Criptografar ao clipboard.
 
-3. Para Descriptografar basta colar a sua mensagem e clicar em `Descriptografar` e em seguida você irá ver sua mensagem descriptografada.
+3.Para Descriptografar basta colar a sua mensagem e clicar em `Descriptografar` e em seguida você irá ver sua mensagem descriptografada.
 
 
 ## Licença

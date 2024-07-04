@@ -1,0 +1,21 @@
+footer {
+    color: var(--cor-3);
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+}
+
+footer a {
+    color: var(--main-color);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

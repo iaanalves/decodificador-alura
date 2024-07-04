@@ -1,0 +1,63 @@
+:root {
+    --backdrop-filter-blur: blur(5px);
+    --blue: #0000ff;
+    --blue-dark: #18293c;
+    --cor-1: #0A3871;
+    --cor-2: #485057;
+    --cor-3: #343A40;
+    --cyan-light: #aef1ee;
+    --main-color: #e02f6b;
+    --orange: #ffa500;
+    --pink-light: #efa2b4;
+    --white: #ffffff;
+    --white-alpha-40: rgba(255, 255, 255, 0.40);
+    --white-alpha-25: rgba(255, 255, 255, 0.25);
+}
+
+.cor-blue {
+    color: var(--blue);
+}
+
+.cor-blue-dark {
+    color: var(--blue-dark);
+}
+
+.cor-cyan-light {
+    color: var(--cyan-light);
+}
+
+.cor-main {
+    color: var(--main-color);
+}
+
+.cor-orange {
+    color: var(--orange);
+}
+
+.cor-pink-light {
+    color: var(--pink-light);
+}
+
+.cor-white {
+    color: var(--white);
+}
+
+.cor-white-alpha-40 {
+    color: var(--white-alpha-40);
+}
+
+.cor-white-alpha-25 {
+    color: var(--white-alpha-25);
+}
+
+.cor-1 {
+    color: var(--cor-1);
+}
+
+.cor-2 {
+    color: var(--cor-2);
+}
+
+.cor-3 {
+    color: var(--cor-3);
+}

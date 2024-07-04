@@ -1,0 +1,15 @@
+/* Global settings */
+@import "./Global/global.css";
+
+/* Footer */
+@import "./Global/footer.css";
+
+/* Utility */
+@import "./Utils/color.css";
+@import "./Utils/utils.css";
+@import "./Utils/button.css";
+@import "./Utils/container.css";
+@import "./Utils/bg-anime.css";
+@import "./Utils/form.css";
+@import "./Utils/esquerda.css";
+@import "./Utils/direita.css";

@@ -1,0 +1,61 @@
+.bg-circulos {
+    position: fixed;
+    top: 0;
+    height: 100%;    
+    max-width: 1200px;
+    width: calc(100% - 30px);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.bg-circulos div {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.bg-circulos .circulo-1 {
+    height: 60px;
+    width: 60px;
+    background-color: var(--blue);
+    left: 40px;
+    top: 10%;
+    opacity: 0.3;
+    animation: zoomInOut 8s linear infinite;
+}
+
+.bg-circulos .circulo-2 {
+    height: 80px;
+    width: 80px;
+    background-color: var(--main-color);
+    left: 30%;
+    top: 50%;
+    opacity: 0.4;
+    animation: bounceTop 5s ease-in-out infinite;
+
+}
+
+.bg-circulos .circulo-3 {
+    height: 120px;
+    width: 120px;
+    background-color: var(--white);
+    top: 40%;
+    right: -30px;
+    opacity: 0.6;
+    animation: bounceTop 8s ease-in-out infinite;
+}
+
+.bg-circulos .circulo-4 {
+    height: 50px;
+    width: 50px;
+    background-color: var(--orange);
+    top: 80%;
+    left: -30px;
+    opacity: 0.4;
+    animation: bounceTop 10s ease-in-out infinite;
+
+}
+
+.overlay.active {
+    visibility: visible;
+}

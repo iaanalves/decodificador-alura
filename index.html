@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Decodificador de Texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- BG Animation -->
+    <section class="bg-circulos">
+        <div class="circulo-1"></div>
+        <div class="circulo-2"></div>
+        <div class="circulo-3"></div>
+        <div class="circulo-4"></div>
+    </section>
+
+    <!-- Main Section -->
+    <main class="container">
+        <section class="esquerda">
+            <form>
+                <textarea id="texto-principal" type="text" placeholder="Digite seu texto"></textarea>
+                <div>
+                    <div class="alerta">
+                        <img src="img/warning.svg" alt="Alerta">
+                        <span>Apenas letras minúsculas e sem acento.</span>
+                    </div>
+                    <div class="botoes">
+                        <button type="button" class="btn bt-cripto" id="criptografar">Criptografar</button>
+                        <button type="button" class="btn bt-descripto" id="descriptografar">Descriptografar</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section class="direita">
+            <div class="sem-retorno">
+                <img src="img/looking.png" alt="Nenhuma mensagem encontrada">
+                <h3 class="titulo-sem-retorno">Nenhuma mensagem encontrada</h3>
+                <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+            </div>
+            <div class="texto-criptografado d-none">
+                <p></p>
+                <button type="button" class="btn bt-copiar" id="copiar">Copiar</button>
+            </div>
+        </section>
+
+    </main>
+
+     <!-- Footer Section -->
+     <footer>
+        <p>&copy; Desenvolvido por Ian Alves.</p>
+        <p>
+            <a href="https://github.com/iaanalves/">Github</a> |
+            <a href="https://www.linkedin.com/in/ian-avslima/">Linkedin</a> |
+            <a href="https://www.alura.com.br/">Alura</a>
+        </p>
+    </footer>
+
+    <!-- Script Import -->
+    <script type="module" src="js/script.js"></script>
+</body>
+
+</html>

@@ -4,13 +4,13 @@ Este aplicativo foi feito com base no "Challenge Decodificador de Texto" do proj
 
 ## Sobre o Projeto
 
-Este projeto é um aplicativo de decoficação de texto que vai permitir o usuário a criptografar e descriptafar mensagens. O intuito do projeto é colocar em prática o conhecimento obtido durante o percurso de aprendizado na formação de iniciante na programação pela Alura com a Oracle.
+Este projeto é um aplicativo de decodificação de texto que vai permitir o usuário a criptografar e descriptafar mensagens. O intuito do projeto é colocar em prática o conhecimento obtido durante o percurso de aprendizado na formação de iniciante na programação pela Alura com a Oracle.
 
 O aplicativo possui uma interface simples e intuitiva com algumas animações de fundo para tornar o acesso mais descontraido.
 
 ## Desenvolvimento
 
-O desenvolvimento do projeto foi utilizado HTML como base para fazer a estrutura do `index.html`. CSS para a estilização do projeto como animação das bolas que flutuam, botões animados e uso das cores escolhidas para o projeto.
+O desenvolvimento do projeto foi utilizado HTML5 como base para fazer a estrutura do `index.html`. CSS3 para a estilização do projeto como animação dos circulos que flutuam, botões animados e uso das cores escolhidas para o projeto.
 Para estruturação da lógica do projeto foi utilizado Javascript ES6 para selecionar os elementos pelo DOM, atribuição única de script via `import` e `export` para uma melhor obter uma boa estrutura e legibilidade do projeto. 
 
 ## Estrutura do Projeto
